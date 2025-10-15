@@ -1,0 +1,39 @@
+
+#my-td1{
+    width: 50%;
+    align-content: center;
+    background-color: #247985;
+    text-align: center;
+    color: white;
+    font-family:"Nunito";
+}
+#my-td2{
+    align-content: center;
+    text-align: center;
+}
+input{
+    width:45%;
+  padding: 15px;
+  border:none;
+  background-color: rgb(240, 240, 240);
+}
+h1{
+    font-size: 40px;
+    font-family: "Nunito";
+}
+textarea{
+  width:45%;
+  padding: 15px;
+  border:none;
+  background-color: rgb(240, 240, 240);  
+}
+button{
+    width: 20%;
+  padding: 8px;
+  background-color:#247985 ;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family:"Nunito" ;
+}
