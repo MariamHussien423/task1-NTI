@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Plus Jakarta Sans" ;
+}
+ul{ 
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --dark-blue:#3563E9;
+    --light-blue:#54A6FF;
+    --dark-text:#1A202C;
+    --light-text:#E0E9F4;
+    
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 2%;
+}
+.py-3{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.px-3{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.w-35{
+    width: 35%;
+}
+.w-40{
+    width:40%;
+}
+.w-10{
+    width: 10%;
+}
+.my-5{
+    margin-top:5% ;
+    margin-bottom: 5%;
+}
+.h-10{
+    height: 5rem;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+} 
+.left{
+    color: var(--dark-blue);
+    font-family:"Plus Jakarta Sans";
+    font-size: 20px;
+}   
+.f-size{
+    font-size: 10px;
+}
+.s-bar{
+    width: 80%;
+    padding: 2% 3%;
+    border: 1%;
+    border-radius: 60px;
+    border-color: #C3D4E966;
+    height: 1.7rem;
+}
+.img-logo{
+    max-width:100% ;
+    max-height:100%;
+    aspect-ratio: 1/1;
+    height: 20px;
+}
+ul li{
+    color: #596780;
+    border: 1%;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+.container-fluied{
+    width: 90%;
+    margin: 0 auto;
+}
+.img-car{
+    width: 60%;
+}
+.text{
+    color:#ffff;
+    padding: 1%;
+    margin: 0 2%;
+   /* width: 40%;*/
+}
+button{
+  width: 20%;
+  padding: 8px;
+  margin: 10px;
+  background-color:var(--dark-blue) ;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 12px;
+  font-family:"Plus Jakarta Sans" ;
+}
+#btn-1{
+    width: 20%;
+  padding: 8px;
+  margin: 10px;
+  background-color:var(--light-blue) ;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 12px;
+  font-family:"Plus Jakarta Sans" ;
+}
+.card{
+    border-radius: 10px;
+}
+.btn-2{
+    width: 60px;
+    height: 60px;
+    padding: 2%;
+    border-radius: 10px;
+}
+.card-body{
+    
+    padding:20px;
+    margin: 0 2%;
+    border-radius: 12px;
+    background-color: #ffff;
+    width: 320px;
+    height: 384px;
+}
+.c-body{
+    padding: 2%;
+    margin: 0 2%;
+}
+
