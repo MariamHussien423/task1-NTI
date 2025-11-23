@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins"; */
+    font-weight: 500;
+    font-style: normal;
+
+}
+.logo{
+    width: 150px;
+    max-width: 100%;
+    height: 50px;
+
+}
+header{
+    position: sticky;
+}
+.dd-flex{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}    
+ a{
+    text-decoration: none;
+    color:black
+ }
+select{
+    border: none;
+}
+.dropdown-menu {
+    display: none; 
+    position: absolute; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+.menu-item:hover .dropdown-menu {
+    display: block; 
+}
+.dropdown-menu li {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top; 
+}
+.main-menu{
+    padding: 2%;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: auto;
+}
+.pl{
+    padding-left: 5px;
+}
+.text-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+.carousel-item img {
+  height:700px;  
+  object-fit: cover;
+  width: 100%;
+}
+.img-banner {
+  position: relative;
+  display: inline-block; 
+  height: 295px;
+}
+
+.img-banner img {
+  display: block;
+  width: 100%;
+ /*  transition: transform 0.3s ease;   */
+
+}.img-text {
+  position: absolute;
+  left:0;
+  top: 30%;
+  font-weight: 700;
+  text-align:start;
+  padding: 0.5rem 1rem;
+}
+.product-card {
+    border:1px solid rgb(150, 150, 150);
+    text-align: center;
+    
+}
+.discount-badge {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.price-original {
+    text-decoration: line-through;
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+
+.img-container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.img-container img {
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+.img-banner-2 {
+  position: relative;
+  display: inline-block;
+}
+.img-banner-2 img {
+  display: block;
+  width: 100%;
+}
+.img-text-1 {
+  position: absolute;
+  left:0;
+  top: 65%;
+  font-weight: 700;
+  text-align:center;
+  padding: 0.5rem 1rem;
+  color:#ffff;
+}
+.img-text-2 {
+  position: absolute;
+  left:15%;
+  top:8%;
+  font-weight: 700;
+  text-align:center;
+  padding: 0.5rem 1rem;
+}
+.img-text-3 {
+  position: absolute;
+  left:10%;
+  top: 62%;
+  font-weight: 700;
+  text-align:center;
+  padding: 0.5rem 1rem;
+  color: #ffff;
+}
+.carousel-img {  
+  object-fit: cover;
+  width: 50%;
+  height: 90vh;
+}
